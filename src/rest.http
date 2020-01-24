@@ -1,6 +1,5 @@
 
-GET https://santandertest.service-now.com/api/now/v2/table/incident/8f24e0761b0240d4b18fdac7bd4bcb4e/ HTTP/1.1
-Authorization: Basic user_br_ibm_out user_br_ibm_out#test
+
 
 
 //user_br_ibm_out#test
