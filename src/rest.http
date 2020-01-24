@@ -1,0 +1,26 @@
+
+GET https://santandertest.service-now.com/api/now/v2/table/incident/8f24e0761b0240d4b18fdac7bd4bcb4e/ HTTP/1.1
+Authorization: Basic user_br_ibm_out user_br_ibm_out#test
+
+
+//user_br_ibm_out#test
+
+# 7846
+
+# 19x 514 2.30 > 1.9
+
+# Autenticação básica
+# O HTTP Basic Auth é um protocolo amplamente usado para autenticação simples de nome de usuário / senha. Suportamos dois formatos de cabeçalho de autorização para usar a autenticação básica.
+
+# Adicione o valor do cabeçalho de autorização na codificação base64 de username:password.
+# Adicione o valor do cabeçalho de autorização no valor bruto de usernamee password, que é separado por espaço. A extensão do Cliente REST fará a codificação base64 automaticamente.
+# Os exemplos correspondentes são os seguintes, eles são equivalentes:
+
+# GET https://httpbin.org//basic-auth/user/passwd HTTP/1.1
+# Authorization: Basic dXNlcjpwYXNzd2Q=
+# e
+
+# GET https://httpbin.org//basic-auth/user/passwd HTTP/1.1
+# Authorization: Basic user passwd
+
+# carronoV0#edez
